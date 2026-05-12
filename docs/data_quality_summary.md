@@ -2,26 +2,13 @@
 
 | Table | Row count | Comment |
 |---|---:|---|
-| users | 1,574 | Dimension table |
-| restaurants | 85 | Dimension table |
-| orders | 5,390 | Main fact table |
-| payments | 5,310 | Not equal to orders; requires referential/business logic check |
-| deliveries | 5,310 | Not equal to orders; requires referential/business logic check |
+| users | 1,574 | 
+| restaurants | 85 | 
+| orders | 5,310 | 
+| payments | 5,310 | 
+| deliveries | 5,310 | 
 
-### Finding
-The number of records in `orders`, `payments`, and `deliveries` is not identical.
-
-This may be expected if:
-- cancelled orders do not always have delivery records;
-- failed or unpaid orders may not have successful payment records;
-- refunds/cancellations are stored differently across tables.
-
-Further checks are required:
-- verify whether every `payment.order_id` exists in `orders`;
-- verify whether every `delivery.order_id` exists in `orders`;
-- identify orders without payments;
-- identify orders without deliveries;
-- compare missing payments/deliveries by `order_status`.
+No unexpected row loss was detected during import.
 
 ## 02. Null checks
 
@@ -41,3 +28,37 @@ The difference between missing delivery timestamps and missing actual delivery d
 
 Potential issue:
 Some records may have `actual_delivery_minutes` populated even when pickup or delivered timestamps are missing.
+
+## 03. Duplicate checks
+
+Checked duplicate primary keys in all raw tables:
+- user_id
+- restaurant_id
+- order_id
+- delivery_id
+- payment_id
+
+No duplicate primary keys were found.
+
+## 04. Referential integrity checks
+
+Checked relationships between:
+- orders → users
+- orders → restaurants
+- payments → orders
+- deliveries → orders
+
+Additional checks were performed to identify orders without payment or delivery records.
+
+No broken relationships were detected.
+
+## 05. Temporal Checks
+
+Validated date and timestamp consistency across users, orders, and deliveries.
+
+### Finding
+
+14 records were identified where: 
+`subscription_start_date < signup_date`
+
+This violates the expected business logic because a user cannot start a subscription before account registration.
