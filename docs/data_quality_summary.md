@@ -68,5 +68,23 @@ Validated date and timestamp consistency across users, orders, and deliveries.
 
 Invalid temporal records should be corrected or excluded in the staging layer before building analytical marts and dashboards.
 
+## 6. Outlier Checks
 
+The purpose of this stage is to identify unusually high, low, or suspicious values that may indicate data quality issues, unrealistic synthetic records, or rare business scenarios.
 
+The following checks were performed:
+
+- Negative or zero payment amounts
+- Extremely high order totals
+- Unrealistic delivery distances
+- Extremely short or long delivery durations
+- Invalid restaurant ratings
+- Suspicious commission rates
+- Users with unusually high order counts
+- Restaurants with unusually high order volumes
+
+### Key Findings
+
+- 159 delivery records contained unusually short or long delivery durations.
+
+Outliers were not automatically removed because extreme values can sometimes represent valid business events (e.g. delayed deliveries during peak hours or holidays). These records were flagged for further inspection instead.
