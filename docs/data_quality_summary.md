@@ -88,3 +88,28 @@ The following checks were performed:
 - 159 delivery records contained unusually short or long delivery durations.
 
 Outliers were not automatically removed because extreme values can sometimes represent valid business events (e.g. delayed deliveries during peak hours or holidays). These records were flagged for further inspection instead.
+
+## 7. Business Rule Checks
+
+The purpose of this stage is to validate whether the dataset follows expected business logic and operational rules.
+
+The following checks were performed:
+- Delivered orders without successful payments
+- Cancelled orders with successful payments
+- Refunded payments without cancelled orders
+- Inconsistent order and delivery statuses
+- Missing refund reasons for cancelled orders
+- Invalid subscription logic
+- Delivery fee validation based on subscription status and food amount
+- Total amount validation (`food_amount + delivery_fee = total_amount`)
+- Restaurant commission validation based on restaurant tier
+
+### Key Findings
+
+- No business rule violations were detected in the dataset.
+- Delivery fees correctly matched subscription conditions and order values.
+- Total payment amounts were consistent with calculated totals.
+- Restaurant commission rates correctly matched restaurant tiers.
+- Order, payment, and delivery statuses were logically consistent across related tables.
+
+These checks confirmed that the generated dataset follows the intended business rules and operational logic of the food delivery platform.
