@@ -63,3 +63,49 @@ These fields simplify:
 - cohort analysis
 
 The staging model keeps one row per order and does not perform aggregations.
+
+---
+
+# 03_stg_payments.sql
+
+Purpose: prepare payment data.
+
+Main transformations:
+
+- standardized payment method values
+- standardized payment status values
+- converted currency codes to uppercase format
+- converted monetary fields to numeric format
+
+
+The staging model keeps one row per payment and does not perform aggregations.
+
+---
+
+# 04_stg_deliveries.sql
+
+Purpose: prepare delivery and logistics data.
+
+Main transformations:
+
+- converted distance values to numeric format
+- converted delivery duration fields to integer
+- converted pickup and delivery timestamps to `TIMESTAMP`
+- standardized delivery status values
+- added helper quality flags for invalid delivery records
+
+Data quality checks identified several delivery timeline issues, including:   
+`delivered_time < pickup_time`  
+and mismatches between recorded delivery duration and actual timestamp difference.
+
+The staging model preserves original values and adds helper flags:
+
+```sql
+has_delivered_before_pickup
+has_invalid_delivery_duration
+has_unusual_delivery_duration
+```
+
+These flags simplify downstream filtering and anomaly analysis.
+
+The staging model keeps one row per delivery and does not perform aggregations.
