@@ -58,7 +58,15 @@ Validated date and timestamp consistency across users, orders, and deliveries.
 
 ### Finding
 
-14 records were identified where: 
-`subscription_start_date < signup_date`
+- 14 users have subscription dates earlier than their account registration date. 
+- 73 delivery records contain invalid timestamp sequences where `delivered_time < pickup_time`. 
+- 218 delivery records have inconsistencies between calculated delivery duration and `actual_delivery_minutes`.  
+    Further inspection showed two types of issues:
+  - incorrect `actual_delivery_minutes` values, such as negative or unrealistically high durations;
+  - invalid timestamp sequences where `delivered_time` is earlier than `pickup_time`.
+### Suggested handling
 
-This violates the expected business logic because a user cannot start a subscription before account registration.
+Invalid temporal records should be corrected or excluded in the staging layer before building analytical marts and dashboards.
+
+
+
