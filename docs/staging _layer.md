@@ -109,3 +109,20 @@ has_unusual_delivery_duration
 These flags simplify downstream filtering and anomaly analysis.
 
 The staging model keeps one row per delivery and does not perform aggregations.
+
+---
+
+# 05_stg_restaurants.sql
+
+Purpose: prepare restaurant dimension data.
+
+Main transformations:
+
+- cleaned restaurant names
+- standardized cuisine type values
+- standardized city names
+- converted rating values to numeric format
+- converted commission rates to numeric format
+
+The staging model preserves one row per restaurant and prepares the dataset for downstream joins with orders and payment tables.
+
