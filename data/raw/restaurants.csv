@@ -1,0 +1,86 @@
+restaurant_id,restaurant_name,cuisine_type,city,avg_rating,restaurant_tier,commission_rate
+RES-0001,"Porta, Talavera and Alegria",Spanish,Madrid,4.9,medium,0.2
+RES-0002,Quintanilla LLC,Mexican,Barcelona,4.9,small_local,0.15
+RES-0003,Sobrino Group,Japanese,Valencia,4.4,small_local,0.15
+RES-0004,Mir and Sons,Mediterranean,Valencia,4.6,medium,0.2
+RES-0005,"Blázquez, Madrid and Amorós",Valencian,Madrid,4.8,small_local,0.15
+RES-0006,"Olivera, Romero and Guzmán",Japanese,Valencia,4.9,small_local,0.15
+RES-0007,Bayona Group,Asian Fusion,Valencia,4.8,medium,0.2
+RES-0008,Palacio-Pujadas,Valencian,Barcelona,3.8,small_local,0.15
+RES-0009,Ros-Coronado,Spanish,Barcelona,3.9,medium,0.2
+RES-0010,Verdugo PLC,Italian,Valencia,3.9,small_local,0.15
+RES-0011,"Tomé, Rios and Múñiz",Italian,Madrid,4.3,premium,0.25
+RES-0012,Linares LLC,Asian Fusion,Madrid,3.8,medium,0.2
+RES-0013,"Campoy, Toledo and Bru",Mexican,Barcelona,4.6,medium,0.2
+RES-0014,"Carbó, Porta and Jover",Japanese,Valencia,4.5,medium,0.2
+RES-0015,Tomé PLC,Spanish,Madrid,4.9,medium,0.2
+RES-0016,Calvo Ltd,Japanese,Valencia,4.2,small_local,0.15
+RES-0017,"Velasco, Llorente and Nadal",Japanese,Madrid,4.3,small_local,0.15
+RES-0018,"Leon, Lillo and Naranjo",Spanish,Madrid,4.0,premium,0.25
+RES-0019,Barriga-Sosa,Valencian,Madrid,4.8,small_local,0.15
+RES-0020,"Marquez, Valcárcel and Sanabria",Italian,Valencia,4.0,premium,0.25
+RES-0021,"Zaragoza, Niño and Cervantes",Japanese,Valencia,4.6,medium,0.2
+RES-0022,"Gonzalez, Godoy and Ribera",Spanish,Valencia,4.8,premium,0.25
+RES-0023,Aragonés Inc,Spanish,Barcelona,4.5,small_local,0.15
+RES-0024,"Elías, Benitez and Pardo",Mexican,Barcelona,4.2,small_local,0.15
+RES-0025,"Valderrama, Porcel and Rovira",Valencian,Madrid,4.1,medium,0.2
+RES-0026,Paniagua-Pinedo,Japanese,Valencia,4.0,premium,0.25
+RES-0027,"Manrique, Carnero and Fonseca",Mexican,Madrid,4.0,small_local,0.15
+RES-0028,Puig LLC,Japanese,Valencia,4.8,small_local,0.15
+RES-0029,Alcázar-Prats,Mexican,Madrid,4.6,premium,0.25
+RES-0030,Lloret-Leiva,Valencian,Barcelona,4.1,small_local,0.15
+RES-0031,Guitart-Torrijos,Mexican,Madrid,4.9,small_local,0.15
+RES-0032,Pareja LLC,Valencian,Valencia,4.1,small_local,0.15
+RES-0033,Puig-Bartolomé,Spanish,Barcelona,4.2,small_local,0.15
+RES-0034,Delgado PLC,Mexican,Valencia,4.2,medium,0.2
+RES-0035,"Mir, Hierro and Querol",Mexican,Valencia,4.2,medium,0.2
+RES-0036,Palomares-Rincón,Asian Fusion,Barcelona,3.8,small_local,0.15
+RES-0037,"Salamanca, Valentín and Murillo",Mediterranean,Valencia,4.7,small_local,0.15
+RES-0038,Gras and Sons,Japanese,Madrid,4.0,medium,0.2
+RES-0039,"Iborra, Vega and Sarabia",Asian Fusion,Madrid,4.3,medium,0.2
+RES-0040,"Agustín, Pablo and Díez",Asian Fusion,Valencia,3.9,medium,0.2
+RES-0041,Barroso LLC,Spanish,Madrid,4.8,medium,0.2
+RES-0042,"Gual, Paredes and Quirós",Mexican,Barcelona,4.1,small_local,0.15
+RES-0043,Soler-Álamo,Spanish,Valencia,3.9,premium,0.25
+RES-0044,Nebot LLC,Mexican,Valencia,3.8,small_local,0.15
+RES-0045,Porta-Mendez,Asian Fusion,Valencia,4.1,medium,0.2
+RES-0046,Tirado-Lobo,Italian,Valencia,4.9,small_local,0.15
+RES-0047,Rojas-Navarrete,Valencian,Barcelona,4.2,medium,0.2
+RES-0048,"Nebot, Escrivá and Quintana",Japanese,Valencia,4.7,small_local,0.15
+RES-0049,"Mir, Arroyo and Durán",Asian Fusion,Valencia,4.4,small_local,0.15
+RES-0050,Sierra Group,Mexican,Barcelona,4.6,small_local,0.15
+RES-0051,Vazquez-Prada,Japanese,Valencia,4.6,premium,0.25
+RES-0052,Jiménez LLC,Mediterranean,Madrid,4.0,medium,0.2
+RES-0053,"Gomila, Roma and Castells",Mexican,Valencia,4.8,medium,0.2
+RES-0054,"Arnal, Ojeda and Escudero",Valencian,Madrid,4.9,small_local,0.15
+RES-0055,"Esteban, Sevilla and Borrás",Japanese,Madrid,4.1,small_local,0.15
+RES-0056,"Téllez, Sanabria and Martín",Mediterranean,Barcelona,4.6,small_local,0.15
+RES-0057,Estrada-Coll,Japanese,Madrid,4.3,medium,0.2
+RES-0058,Jove Group,Spanish,Barcelona,5.0,premium,0.25
+RES-0059,"Asenjo, Valero and Plana",Valencian,Valencia,4.6,small_local,0.15
+RES-0060,"Lorenzo, Ocaña and Pelayo",Valencian,Madrid,4.5,small_local,0.15
+RES-0061,Ferrero Group,Asian Fusion,Valencia,4.3,medium,0.2
+RES-0062,"Gárate, Bosch and Gabaldón",Japanese,Barcelona,4.4,medium,0.2
+RES-0063,Arce PLC,Mediterranean,Valencia,4.3,small_local,0.15
+RES-0064,"Mateo, Rueda and Nuñez",Italian,Madrid,4.8,premium,0.25
+RES-0065,Rius PLC,Spanish,Valencia,4.9,premium,0.25
+RES-0066,Catalán Group,Mediterranean,Barcelona,4.4,medium,0.2
+RES-0067,Canet-Mate,Mediterranean,Barcelona,4.0,small_local,0.15
+RES-0068,Pera-Baquero,Japanese,Barcelona,4.6,medium,0.2
+RES-0069,Baños and Sons,Italian,Valencia,3.9,medium,0.2
+RES-0070,Carrera Ltd,Asian Fusion,Barcelona,4.5,medium,0.2
+RES-0071,Agustí Ltd,Asian Fusion,Barcelona,4.1,medium,0.2
+RES-0072,Manzanares Ltd,Mexican,Barcelona,4.0,small_local,0.15
+RES-0073,Nicolau-Juliá,Mexican,Barcelona,3.9,medium,0.2
+RES-0074,"Nicolau, Moliner and Escalona",Mediterranean,Valencia,4.9,small_local,0.15
+RES-0075,Lladó Group,Mexican,Valencia,3.8,medium,0.2
+RES-0076,Diego Group,Valencian,Madrid,4.9,medium,0.2
+RES-0077,Reig PLC,Mexican,Madrid,4.8,small_local,0.15
+RES-0078,Torrens PLC,Japanese,Madrid,4.5,small_local,0.15
+RES-0079,"Jáuregui, Yuste and Oller",Japanese,Barcelona,4.5,medium,0.2
+RES-0080,Montenegro-Fajardo,Mediterranean,Valencia,4.6,medium,0.2
+RES-0081,Carbajo-Rincón,Mexican,Valencia,3.9,premium,0.25
+RES-0082,Coll LLC,Mediterranean,Barcelona,3.8,small_local,0.15
+RES-0083,"Baró, Benavente and Coronado",Mexican,Valencia,4.3,medium,0.2
+RES-0084,"Burgos, Ortuño and Cobos",Spanish,Barcelona,4.4,small_local,0.15
+RES-0085,Aguirre-Fernández,Spanish,Valencia,4.4,medium,0.2
