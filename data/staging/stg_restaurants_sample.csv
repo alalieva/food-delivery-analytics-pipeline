@@ -1,0 +1,86 @@
+"restaurant_id","restaurant_name","cuisine_type","city","avg_rating","restaurant_tier","commission_rate"
+"RES-0001","Porta, Talavera and Alegria","spanish","Madrid",4.90,"medium",0.20
+"RES-0002","Quintanilla LLC","mexican","Barcelona",4.90,"small_local",0.15
+"RES-0003","Sobrino Group","japanese","Valencia",4.40,"small_local",0.15
+"RES-0004","Mir and Sons","mediterranean","Valencia",4.60,"medium",0.20
+"RES-0005","Blázquez, Madrid and Amorós","valencian","Madrid",4.80,"small_local",0.15
+"RES-0006","Olivera, Romero and Guzmán","japanese","Valencia",4.90,"small_local",0.15
+"RES-0007","Bayona Group","asian fusion","Valencia",4.80,"medium",0.20
+"RES-0008","Palacio-Pujadas","valencian","Barcelona",3.80,"small_local",0.15
+"RES-0009","Ros-Coronado","spanish","Barcelona",3.90,"medium",0.20
+"RES-0010","Verdugo PLC","italian","Valencia",3.90,"small_local",0.15
+"RES-0011","Tomé, Rios and Múñiz","italian","Madrid",4.30,"premium",0.25
+"RES-0012","Linares LLC","asian fusion","Madrid",3.80,"medium",0.20
+"RES-0013","Campoy, Toledo and Bru","mexican","Barcelona",4.60,"medium",0.20
+"RES-0014","Carbó, Porta and Jover","japanese","Valencia",4.50,"medium",0.20
+"RES-0015","Tomé PLC","spanish","Madrid",4.90,"medium",0.20
+"RES-0016","Calvo Ltd","japanese","Valencia",4.20,"small_local",0.15
+"RES-0017","Velasco, Llorente and Nadal","japanese","Madrid",4.30,"small_local",0.15
+"RES-0018","Leon, Lillo and Naranjo","spanish","Madrid",4.00,"premium",0.25
+"RES-0019","Barriga-Sosa","valencian","Madrid",4.80,"small_local",0.15
+"RES-0020","Marquez, Valcárcel and Sanabria","italian","Valencia",4.00,"premium",0.25
+"RES-0021","Zaragoza, Niño and Cervantes","japanese","Valencia",4.60,"medium",0.20
+"RES-0022","Gonzalez, Godoy and Ribera","spanish","Valencia",4.80,"premium",0.25
+"RES-0023","Aragonés Inc","spanish","Barcelona",4.50,"small_local",0.15
+"RES-0024","Elías, Benitez and Pardo","mexican","Barcelona",4.20,"small_local",0.15
+"RES-0025","Valderrama, Porcel and Rovira","valencian","Madrid",4.10,"medium",0.20
+"RES-0026","Paniagua-Pinedo","japanese","Valencia",4.00,"premium",0.25
+"RES-0027","Manrique, Carnero and Fonseca","mexican","Madrid",4.00,"small_local",0.15
+"RES-0028","Puig LLC","japanese","Valencia",4.80,"small_local",0.15
+"RES-0029","Alcázar-Prats","mexican","Madrid",4.60,"premium",0.25
+"RES-0030","Lloret-Leiva","valencian","Barcelona",4.10,"small_local",0.15
+"RES-0031","Guitart-Torrijos","mexican","Madrid",4.90,"small_local",0.15
+"RES-0032","Pareja LLC","valencian","Valencia",4.10,"small_local",0.15
+"RES-0033","Puig-Bartolomé","spanish","Barcelona",4.20,"small_local",0.15
+"RES-0034","Delgado PLC","mexican","Valencia",4.20,"medium",0.20
+"RES-0035","Mir, Hierro and Querol","mexican","Valencia",4.20,"medium",0.20
+"RES-0036","Palomares-Rincón","asian fusion","Barcelona",3.80,"small_local",0.15
+"RES-0037","Salamanca, Valentín and Murillo","mediterranean","Valencia",4.70,"small_local",0.15
+"RES-0038","Gras and Sons","japanese","Madrid",4.00,"medium",0.20
+"RES-0039","Iborra, Vega and Sarabia","asian fusion","Madrid",4.30,"medium",0.20
+"RES-0040","Agustín, Pablo and Díez","asian fusion","Valencia",3.90,"medium",0.20
+"RES-0041","Barroso LLC","spanish","Madrid",4.80,"medium",0.20
+"RES-0042","Gual, Paredes and Quirós","mexican","Barcelona",4.10,"small_local",0.15
+"RES-0043","Soler-Álamo","spanish","Valencia",3.90,"premium",0.25
+"RES-0044","Nebot LLC","mexican","Valencia",3.80,"small_local",0.15
+"RES-0045","Porta-Mendez","asian fusion","Valencia",4.10,"medium",0.20
+"RES-0046","Tirado-Lobo","italian","Valencia",4.90,"small_local",0.15
+"RES-0047","Rojas-Navarrete","valencian","Barcelona",4.20,"medium",0.20
+"RES-0048","Nebot, Escrivá and Quintana","japanese","Valencia",4.70,"small_local",0.15
+"RES-0049","Mir, Arroyo and Durán","asian fusion","Valencia",4.40,"small_local",0.15
+"RES-0050","Sierra Group","mexican","Barcelona",4.60,"small_local",0.15
+"RES-0051","Vazquez-Prada","japanese","Valencia",4.60,"premium",0.25
+"RES-0052","Jiménez LLC","mediterranean","Madrid",4.00,"medium",0.20
+"RES-0053","Gomila, Roma and Castells","mexican","Valencia",4.80,"medium",0.20
+"RES-0054","Arnal, Ojeda and Escudero","valencian","Madrid",4.90,"small_local",0.15
+"RES-0055","Esteban, Sevilla and Borrás","japanese","Madrid",4.10,"small_local",0.15
+"RES-0056","Téllez, Sanabria and Martín","mediterranean","Barcelona",4.60,"small_local",0.15
+"RES-0057","Estrada-Coll","japanese","Madrid",4.30,"medium",0.20
+"RES-0058","Jove Group","spanish","Barcelona",5.00,"premium",0.25
+"RES-0059","Asenjo, Valero and Plana","valencian","Valencia",4.60,"small_local",0.15
+"RES-0060","Lorenzo, Ocaña and Pelayo","valencian","Madrid",4.50,"small_local",0.15
+"RES-0061","Ferrero Group","asian fusion","Valencia",4.30,"medium",0.20
+"RES-0062","Gárate, Bosch and Gabaldón","japanese","Barcelona",4.40,"medium",0.20
+"RES-0063","Arce PLC","mediterranean","Valencia",4.30,"small_local",0.15
+"RES-0064","Mateo, Rueda and Nuñez","italian","Madrid",4.80,"premium",0.25
+"RES-0065","Rius PLC","spanish","Valencia",4.90,"premium",0.25
+"RES-0066","Catalán Group","mediterranean","Barcelona",4.40,"medium",0.20
+"RES-0067","Canet-Mate","mediterranean","Barcelona",4.00,"small_local",0.15
+"RES-0068","Pera-Baquero","japanese","Barcelona",4.60,"medium",0.20
+"RES-0069","Baños and Sons","italian","Valencia",3.90,"medium",0.20
+"RES-0070","Carrera Ltd","asian fusion","Barcelona",4.50,"medium",0.20
+"RES-0071","Agustí Ltd","asian fusion","Barcelona",4.10,"medium",0.20
+"RES-0072","Manzanares Ltd","mexican","Barcelona",4.00,"small_local",0.15
+"RES-0073","Nicolau-Juliá","mexican","Barcelona",3.90,"medium",0.20
+"RES-0074","Nicolau, Moliner and Escalona","mediterranean","Valencia",4.90,"small_local",0.15
+"RES-0075","Lladó Group","mexican","Valencia",3.80,"medium",0.20
+"RES-0076","Diego Group","valencian","Madrid",4.90,"medium",0.20
+"RES-0077","Reig PLC","mexican","Madrid",4.80,"small_local",0.15
+"RES-0078","Torrens PLC","japanese","Madrid",4.50,"small_local",0.15
+"RES-0079","Jáuregui, Yuste and Oller","japanese","Barcelona",4.50,"medium",0.20
+"RES-0080","Montenegro-Fajardo","mediterranean","Valencia",4.60,"medium",0.20
+"RES-0081","Carbajo-Rincón","mexican","Valencia",3.90,"premium",0.25
+"RES-0082","Coll LLC","mediterranean","Barcelona",3.80,"small_local",0.15
+"RES-0083","Baró, Benavente and Coronado","mexican","Valencia",4.30,"medium",0.20
+"RES-0084","Burgos, Ortuño and Cobos","spanish","Barcelona",4.40,"small_local",0.15
+"RES-0085","Aguirre-Fernández","spanish","Valencia",4.40,"medium",0.20

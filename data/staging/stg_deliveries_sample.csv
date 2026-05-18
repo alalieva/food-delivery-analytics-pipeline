@@ -1,0 +1,101 @@
+"delivery_id","order_id","courier_id","distance_km","estimated_delivery_minutes","pickup_time","delivered_time","delivery_status","actual_delivery_minutes","has_delivered_before_pickup","has_invalid_delivery_duration","has_unusual_delivery_duration"
+"DEL-000001","ORD-000001","CUR-0212",7.00,61,"2025-12-07 13:58:00","2025-12-07 14:59:00","delivered",61,False,False,False
+"DEL-000002","ORD-000002","CUR-0171",6.70,54,"2025-09-09 18:02:00","2025-09-09 19:24:00","delivered",82,False,False,False
+"DEL-000003","ORD-000003","CUR-0180",1.50,26,"2025-11-25 19:43:00","2025-11-25 20:16:00","delivered",33,False,False,False
+"DEL-000004","ORD-000004","CUR-0173",3.10,45,"2025-11-03 11:20:00","2025-11-03 12:08:00","delivered",48,False,False,False
+"DEL-000005","ORD-000005","CUR-0080",4.30,42,"2025-11-28 23:53:00","2025-11-29 00:34:00","delivered",41,False,False,False
+"DEL-000006","ORD-000006","CUR-0250",4.60,39,"2025-12-19 18:57:00","2025-12-19 19:39:00","delivered",42,False,False,False
+"DEL-000007","ORD-000007","CUR-0034",1.30,27,"2025-12-14 18:18:00","2025-12-14 18:49:00","delivered",31,False,False,False
+"DEL-000008","ORD-000008","CUR-0136",1.30,32,"2024-09-17 17:06:00","2024-09-17 17:45:00","delivered",39,False,False,False
+"DEL-000009","ORD-000009","CUR-0202",8.90,68,"2024-10-31 15:54:00","2024-10-31 17:18:00","delivered",84,False,False,False
+"DEL-000010","ORD-000010","CUR-0242",3.40,39,"2025-11-12 17:15:00","2025-11-12 17:56:00","delivered",41,False,False,False
+"DEL-000011","ORD-000011","CUR-0111",9.10,62,"2025-08-20 19:12:00","2025-08-20 20:13:00","delivered",61,False,False,False
+"DEL-000012","ORD-000012","CUR-0176",2.20,25,"2025-11-22 10:19:00","2025-11-22 10:46:00","delivered",-3,False,True,True
+"DEL-000013","ORD-000013","CUR-0195",8.90,72,"2024-11-19 15:36:00","2024-11-19 17:04:00","delivered",88,False,False,False
+"DEL-000014","ORD-000014","CUR-0075",2.50,30,"2025-12-22 16:06:00","2025-12-22 16:43:00","delivered",37,False,False,False
+"DEL-000015","ORD-000015","CUR-0133",7.20,66,"2025-09-30 11:38:00","2025-09-30 12:39:00","delivered",61,False,False,False
+"DEL-000016","ORD-000016","CUR-0149",5.20,39,"2025-11-23 10:05:00","2025-11-23 10:39:00","delivered",34,False,False,False
+"DEL-000017","ORD-000017","CUR-0036",9.10,65,"2025-12-30 16:58:00","2025-12-30 18:20:00","delivered",82,False,False,False
+"DEL-000018","ORD-000018","CUR-0148",6.70,65,"2025-09-06 20:04:00","2025-09-06 21:16:00","delivered",72,False,False,False
+"DEL-000019","ORD-000019","CUR-0140",7.00,53,"2025-10-20 23:57:00","2025-10-21 00:49:00","delivered",-3,False,True,True
+"DEL-000020","ORD-000020","CUR-0100",9.40,76,"2025-12-23 16:01:00","2025-12-23 17:16:00","delivered",75,False,False,False
+"DEL-000021","ORD-000021","CUR-0057",2.70,30,"2025-12-22 17:16:00","2025-12-22 17:51:00","delivered",35,False,False,False
+"DEL-000022","ORD-000022","CUR-0238",2.70,38,"2025-12-17 11:17:00","2025-12-17 11:51:00","delivered",34,False,False,False
+"DEL-000023","ORD-000023","CUR-0178",1.40,28,"2025-06-11 11:21:00","2025-06-11 11:49:00","delivered",28,False,False,False
+"DEL-000024","ORD-000024","CUR-0163",2.80,36,"2025-09-20 20:53:00","2025-09-20 21:27:00","delivered",34,False,False,False
+"DEL-000025","ORD-000025","CUR-0106",2.80,27,"2025-11-08 23:16:00","2025-11-08 23:42:00","delivered",26,False,False,False
+"DEL-000026","ORD-000026","CUR-0149",4.20,52,"2025-10-10 09:32:00","2025-10-10 10:23:00","delivered",51,False,False,False
+"DEL-000027","ORD-000027","CUR-0025",8.50,74,"2025-09-06 15:20:00","2025-09-06 16:45:00","delivered",85,False,False,False
+"DEL-000028","ORD-000028","CUR-0181",1.00,28,NULL,NULL,"delivered",42,False,False,False
+"DEL-000029","ORD-000029","CUR-0115",7.40,57,"2025-01-28 23:35:00","2025-01-29 00:35:00","delivered",60,False,False,False
+"DEL-000030","ORD-000030","CUR-0247",5.90,60,NULL,NULL,"cancelled",NULL,False,False,False
+"DEL-000031","ORD-000031","CUR-0068",8.50,55,"2025-11-09 18:46:00","2025-11-09 19:43:00","delivered",57,False,False,False
+"DEL-000032","ORD-000032","CUR-0164",6.70,54,NULL,NULL,"cancelled",NULL,False,False,False
+"DEL-000033","ORD-000033","CUR-0003",9.20,71,"2024-11-15 18:43:00","2024-11-15 19:49:00","delivered",66,False,False,False
+"DEL-000034","ORD-000034","CUR-0028",3.20,40,NULL,NULL,"delivered",40,False,False,False
+"DEL-000035","ORD-000035","CUR-0089",5.40,64,"2025-11-21 09:33:00","2025-11-21 10:37:00","delivered",64,False,False,False
+"DEL-000036","ORD-000036","CUR-0030",5.60,56,NULL,NULL,"cancelled",NULL,False,False,False
+"DEL-000037","ORD-000037","CUR-0105",8.50,58,"2025-12-15 19:21:00","2025-12-15 20:42:00","delivered",81,False,False,False
+"DEL-000038","ORD-000038","CUR-0008",0.70,20,"2025-10-13 10:06:00","2025-10-13 10:38:00","delivered",32,False,False,False
+"DEL-000039","ORD-000039","CUR-0110",1.30,26,"2024-03-11 23:22:00","2024-03-11 23:53:00","delivered",31,False,False,False
+"DEL-000040","ORD-000040","CUR-0096",1.10,26,"2025-11-22 17:34:00","2025-11-22 18:06:00","delivered",32,False,False,False
+"DEL-000041","ORD-000041","CUR-0058",0.60,32,NULL,NULL,"cancelled",NULL,False,False,False
+"DEL-000042","ORD-000042","CUR-0168",9.10,70,"2025-02-17 18:08:00","2025-02-17 19:17:00","delivered",69,False,False,False
+"DEL-000043","ORD-000043","CUR-0099",2.10,34,"2025-02-20 17:17:00","2025-02-20 17:50:00","delivered",33,False,False,False
+"DEL-000044","ORD-000044","CUR-0086",7.90,48,NULL,NULL,"cancelled",NULL,False,False,False
+"DEL-000045","ORD-000045","CUR-0247",2.60,43,"2025-07-04 23:10:00","2025-07-04 23:51:00","delivered",41,False,False,False
+"DEL-000046","ORD-000046","CUR-0022",7.10,72,"2025-12-11 16:35:00","2025-12-11 17:48:00","delivered",73,False,False,False
+"DEL-000047","ORD-000047","CUR-0241",4.90,53,NULL,NULL,"cancelled",NULL,False,False,False
+"DEL-000048","ORD-000048","CUR-0101",3.40,37,"2025-11-28 17:12:00","2025-11-28 17:46:00","delivered",34,False,False,False
+"DEL-000049","ORD-000049","CUR-0239",4.60,41,"2024-01-29 16:26:00","2024-01-29 17:07:00","delivered",41,False,False,False
+"DEL-000050","ORD-000050","CUR-0071",6.80,68,NULL,NULL,"cancelled",NULL,False,False,False
+"DEL-000051","ORD-000051","CUR-0217",9.40,86,"2024-11-19 15:38:00","2024-11-19 17:12:00","delivered",94,False,False,False
+"DEL-000052","ORD-000052","CUR-0164",2.90,38,"2025-12-02 22:04:00","2025-12-02 22:53:00","delivered",49,False,False,False
+"DEL-000053","ORD-000053","CUR-0145",2.40,24,"2025-12-31 22:40:00","2025-12-31 23:07:00","delivered",27,False,False,False
+"DEL-000054","ORD-000054","CUR-0061",4.90,54,NULL,NULL,"cancelled",NULL,False,False,False
+"DEL-000055","ORD-000055","CUR-0225",3.30,43,"2025-09-28 10:46:00","2025-09-28 11:30:00","delivered",259,False,True,True
+"DEL-000056","ORD-000056","CUR-0164",7.20,63,"2024-10-02 11:57:00","2024-10-02 13:35:00","delivered",98,False,False,False
+"DEL-000057","ORD-000057","CUR-0202",4.40,47,"2025-01-18 23:03:00","2025-01-18 23:54:00","delivered",51,False,False,False
+"DEL-000058","ORD-000058","CUR-0023",2.00,39,"2024-09-04 22:36:00","2024-09-04 23:51:00","delivered",75,False,False,False
+"DEL-000059","ORD-000059","CUR-0141",7.40,61,"2025-06-30 15:20:00","2025-06-30 16:24:00","delivered",64,False,False,False
+"DEL-000060","ORD-000060","CUR-0058",1.20,24,"2024-12-30 12:07:00","2024-12-30 12:30:00","delivered",23,False,False,False
+"DEL-000061","ORD-000061","CUR-0136",3.50,45,"2025-09-07 15:33:00","2025-09-07 16:30:00","delivered",-3,False,True,True
+"DEL-000062","ORD-000062","CUR-0005",5.20,57,"2025-12-04 22:53:00","2025-12-05 00:24:00","delivered",91,False,False,False
+"DEL-000063","ORD-000063","CUR-0225",3.60,38,"2025-02-19 15:50:00","2025-02-19 17:04:00","delivered",74,False,False,False
+"DEL-000064","ORD-000064","CUR-0022",3.80,43,NULL,NULL,"cancelled",NULL,False,False,False
+"DEL-000065","ORD-000065","CUR-0080",7.70,54,"2025-05-17 11:57:00","2025-05-17 12:46:00","delivered",49,False,False,False
+"DEL-000066","ORD-000066","CUR-0187",6.00,53,"2025-11-15 21:19:00","2025-11-15 22:44:00","delivered",85,False,False,False
+"DEL-000067","ORD-000067","CUR-0052",6.30,52,"2024-10-13 09:13:00","2024-10-13 10:37:00","delivered",84,False,False,False
+"DEL-000068","ORD-000068","CUR-0021",1.40,40,NULL,NULL,"delivered",35,False,False,False
+"DEL-000069","ORD-000069","CUR-0122",1.30,28,"2025-02-07 22:54:00","2025-02-08 00:01:00","delivered",67,False,False,False
+"DEL-000070","ORD-000070","CUR-0211",7.80,59,"2025-04-13 10:59:00","2025-04-13 12:02:00","delivered",63,False,False,False
+"DEL-000071","ORD-000071","CUR-0100",4.70,52,"2024-11-19 20:09:00","2024-11-19 21:08:00","delivered",59,False,False,False
+"DEL-000072","ORD-000072","CUR-0014",8.50,67,"2025-04-10 21:03:00","2025-04-10 22:17:00","delivered",74,False,False,False
+"DEL-000073","ORD-000073","CUR-0120",7.00,57,"2025-03-07 18:22:00","2025-03-07 19:24:00","delivered",62,False,False,False
+"DEL-000074","ORD-000074","CUR-0246",7.90,70,"2025-09-08 12:30:00","2025-09-08 13:56:00","delivered",86,False,False,False
+"DEL-000075","ORD-000075","CUR-0237",4.40,43,"2025-09-19 14:42:00","2025-09-19 15:50:00","delivered",68,False,False,False
+"DEL-000076","ORD-000076","CUR-0154",2.00,39,"2025-09-22 10:09:00","2025-09-22 11:12:00","delivered",63,False,False,False
+"DEL-000077","ORD-000077","CUR-0177",7.30,61,"2025-12-11 16:59:00","2025-12-11 18:03:00","delivered",64,False,False,False
+"DEL-000078","ORD-000078","CUR-0153",5.10,61,"2025-10-24 23:58:00","2025-10-25 01:04:00","delivered",66,False,False,False
+"DEL-000079","ORD-000079","CUR-0125",8.40,67,"2025-12-16 10:01:00","2025-12-16 11:24:00","delivered",259,False,True,True
+"DEL-000080","ORD-000080","CUR-0047",3.50,39,"2025-10-04 22:21:00","2025-10-04 22:55:00","delivered",34,False,False,False
+"DEL-000081","ORD-000081","CUR-0120",7.70,61,"2025-11-18 15:04:00","2025-11-18 16:05:00","delivered",61,False,False,False
+"DEL-000082","ORD-000082","CUR-0050",8.30,54,"2024-11-27 10:46:00","2024-11-27 11:39:00","delivered",53,False,False,False
+"DEL-000083","ORD-000083","CUR-0247",7.70,56,NULL,NULL,"cancelled",NULL,False,False,False
+"DEL-000084","ORD-000084","CUR-0172",2.20,28,"2025-05-13 13:36:00","2025-05-13 14:08:00","delivered",32,False,False,False
+"DEL-000085","ORD-000085","CUR-0100",7.40,70,"2025-08-04 09:39:00","2025-08-04 10:44:00","delivered",65,False,False,False
+"DEL-000086","ORD-000086","CUR-0218",7.70,61,"2025-09-06 15:30:00","2025-09-06 16:59:00","delivered",89,False,False,False
+"DEL-000087","ORD-000087","CUR-0030",9.30,77,"2025-05-02 22:49:00","2025-05-03 00:39:00","delivered",110,False,False,False
+"DEL-000088","ORD-000088","CUR-0003",8.00,72,"2025-06-27 12:25:00","2025-06-27 14:16:00","delivered",111,False,False,False
+"DEL-000089","ORD-000089","CUR-0041",2.50,41,"2025-07-25 00:07:00","2025-07-25 00:55:00","delivered",48,False,False,False
+"DEL-000090","ORD-000090","CUR-0057",3.00,42,"2025-12-07 16:00:00","2025-12-07 16:50:00","delivered",50,False,False,False
+"DEL-000091","ORD-000091","CUR-0003",5.70,54,"2025-11-26 18:28:00","2025-11-26 19:32:00","delivered",64,False,False,False
+"DEL-000092","ORD-000092","CUR-0004",3.20,39,"2025-10-27 19:54:00","2025-10-27 20:41:00","delivered",47,False,False,False
+"DEL-000093","ORD-000093","CUR-0122",3.30,35,"2025-12-18 17:04:00","2025-12-18 17:40:00","delivered",36,False,False,False
+"DEL-000094","ORD-000094","CUR-0171",7.00,67,"2025-08-12 15:59:00","2025-08-12 17:04:00","delivered",65,False,False,False
+"DEL-000095","ORD-000095","CUR-0005",8.30,66,"2025-06-21 20:52:00","2025-06-21 22:18:00","delivered",86,False,False,False
+"DEL-000096","ORD-000096","CUR-0126",7.90,72,"2025-10-08 12:07:00","2025-10-08 13:16:00","delivered",69,False,False,False
+"DEL-000097","ORD-000097","CUR-0087",5.10,57,"2025-11-29 17:35:00","2025-11-29 18:35:00","delivered",-3,False,True,True
+"DEL-000098","ORD-000098","CUR-0207",3.40,32,"2025-02-18 23:13:00","2025-02-18 23:45:00","delivered",32,False,False,False
+"DEL-000099","ORD-000099","CUR-0093",1.40,33,"2025-11-07 14:43:00","2025-11-07 15:16:00","delivered",33,False,False,False
+"DEL-000100","ORD-000100","CUR-0154",2.80,47,"2025-12-29 23:16:00","2025-12-30 00:10:00","delivered",54,False,False,False

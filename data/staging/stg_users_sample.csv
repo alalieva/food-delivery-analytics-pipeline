@@ -1,0 +1,101 @@
+"user_id","full_name","email","city","signup_date","is_subscriber","subscription_start_date","has_subscription_before_signup"
+"USR-0001","Encarna Seco Murcia","bruno.viñas@example.com","Valencia","2025-10-16",True,"2025-10-16",False
+"USR-0002","Heriberto Gordillo-Cortes","antonia.falcón@example.com","Barcelona","2024-10-08",True,"2024-10-08",False
+"USR-0003","José Mari Manzano Plaza","cayetano.valenciano@example.com","Valencia","2024-04-14",False,NULL,False
+"USR-0004","Tania de Oliver","rocío.iriarte@example.com","Barcelona","2024-03-30",False,NULL,False
+"USR-0005","Evita Jordán","nacio.peralta@example.com","Barcelona","2024-01-31",True,"2024-01-31",False
+"USR-0006","Delfina Aragonés Iniesta","áfrica.burgos@example.com","Valencia","2025-06-01",False,NULL,False
+"USR-0007","Graciano Pavón Páez","ildefonso.bernat@example.com","Valencia","2024-07-22",False,NULL,False
+"USR-0008","Perla Bermúdez-Rovira","juan.díez@example.com","Madrid","2025-07-12",False,NULL,False
+"USR-0009","Berta Reina Bello","josep.sosa@example.com","Barcelona","2025-05-23",False,NULL,False
+"USR-0010","Xiomara de Cruz","rosendo.arranz@example.com","Madrid","2024-06-12",False,NULL,False
+"USR-0011","Manu Bonilla Valencia","gracia.barragán@example.com","Madrid","2024-10-11",True,"2024-10-11",False
+"USR-0012","Reinaldo de Aramburu","agustín.marqués@example.com","Barcelona","2024-04-14",True,"2024-04-14",False
+"USR-0013","Demetrio Carvajal Jover","graciano.escudero@example.com","Valencia","2025-01-02",False,NULL,False
+"USR-0014","Simón de Echeverría","vidal.mendizábal@example.com","Valencia","2024-09-27",False,NULL,False
+"USR-0015","Eligio Gálvez Maldonado","laura.bello@example.com","Madrid","2025-04-15",False,NULL,False
+"USR-0016","Matías Nadal Piquer","espiridión.albero@example.com","Valencia","2024-03-21",False,NULL,False
+"USR-0017","Daniela Sara Barrena Daza","luciana.baños@example.com","Madrid","2025-09-25",False,NULL,False
+"USR-0018","Óscar Guardia Pallarès","abel.bolaños@example.com","Barcelona","2025-08-14",True,"2025-08-14",False
+"USR-0019","Pacífica Aroca Roselló","francisca.anaya@example.com","Madrid","2024-02-16",False,NULL,False
+"USR-0020","Encarnita Navarro-Santiago","micaela.llano@example.com","Barcelona","2024-03-22",False,NULL,False
+"USR-0021","Gonzalo Marcos Blasco","leocadio.pinto@example.com","Valencia","2025-01-24",False,NULL,False
+"USR-0022","Dorotea Boada Carranza","nilo.arrieta@example.com","Madrid","2025-01-08",True,"2025-01-08",False
+"USR-0023","Lola Román Borrego","nicodemo.benito@example.com","Valencia","2024-08-02",False,NULL,False
+"USR-0024","Juanita Aguirre Garzón","edelmira.prado@example.com","Valencia","2025-11-30",False,NULL,False
+"USR-0025","Reina Duque Molina","amado.coll@example.com","Valencia","2025-10-12",True,"2025-10-12",False
+"USR-0026","Reynaldo Jerónimo Barreda Chaparro","rubén.garcía@example.com","Madrid","2024-09-07",True,"2024-09-07",False
+"USR-0027","Heraclio Bermúdez Tovar","joan.marcos@example.com","Valencia","2024-10-03",False,NULL,False
+"USR-0028","Bárbara Claudia Lozano Marí","marc.mariño@example.com","Valencia","2025-12-05",False,NULL,False
+"USR-0029","Nicanor Echevarría","amor.barbero@example.com","Barcelona","2024-11-28",False,NULL,False
+"USR-0030","Ascensión Isern-Luján","mónica.rios@example.com","Madrid","2024-08-22",False,NULL,False
+"USR-0031","Joaquina Maestre Roda","amparo.montoya@example.com","Barcelona","2025-02-14",False,NULL,False
+"USR-0032","Severino Cañas Cuenca","carmina.nicolás@example.com","Madrid","2025-08-03",False,NULL,False
+"USR-0033","Pío Quiroga","paola.sedano@example.com","Madrid","2024-08-05",False,NULL,False
+"USR-0034","Paola del Ramón","inés.pont@example.com","Madrid","2025-10-20",False,NULL,False
+"USR-0035","Ricardo Bernad Paniagua","gabriela.vallés@example.com","Valencia","2024-05-22",True,"2024-05-22",False
+"USR-0036","Leonor Azeneth Fábregas Costa","primitiva.gibert@example.com","Valencia","2025-07-05",False,NULL,False
+"USR-0037","Florentina Ferrer Contreras","mireia.castañeda@example.com","Madrid","2025-03-14",False,NULL,False
+"USR-0038","Lourdes Perales Galindo","isidro.gallo@example.com","Barcelona","2025-01-05",True,"2025-01-05",False
+"USR-0039","Raúl Neira-Mur","julián.villegas@example.com","Barcelona","2025-06-05",False,NULL,False
+"USR-0040","Íñigo Noguera Gargallo","reyes.flores@example.com","Barcelona","2024-04-22",True,"2024-04-22",False
+"USR-0041","Paloma Montserrat Madrigal Milla","encarna.gargallo@example.com","Barcelona","2025-11-27",False,NULL,False
+"USR-0042","Merche Burgos Sierra","perla.andreu@example.com","Madrid","2025-01-29",False,NULL,False
+"USR-0043","Angélica Soler Araujo","máximo.clemente@example.com","Valencia","2025-06-25",False,NULL,False
+"USR-0044","Jovita Lorenzo Sanz","che.casals@example.com","Barcelona","2024-01-12",False,NULL,False
+"USR-0045","Lázaro Zamora Zapata","martin.perea@example.com","Madrid","2025-11-29",False,NULL,False
+"USR-0046","Lara Casals Reina","lucas.barco@example.com","Madrid","2025-10-18",False,NULL,False
+"USR-0047","Fabiana Aznar Martí","débora.salazar@example.com","Barcelona","2025-03-21",True,"2025-03-21",False
+"USR-0048","Herminia Cardona Donoso","maribel.canals@example.com","Barcelona","2024-09-26",False,NULL,False
+"USR-0049","Fernando Mora-Soto","chelo.vara@example.com","Valencia","2025-06-03",False,NULL,False
+"USR-0050","Reynaldo Malo Sola","tristán.cervantes@example.com","Valencia","2024-11-01",False,NULL,False
+"USR-0051","Anna Vilanova","salvador.roura@example.com","Madrid","2025-09-15",True,"2025-09-15",False
+"USR-0052","Azahar Edelmira Cortes Vilalta","erasmo.carnero@example.com","Valencia","2024-06-14",False,NULL,False
+"USR-0053","Nazaret Fiol Criado","lupe.gutiérrez@example.com","Madrid","2024-01-01",False,NULL,False
+"USR-0054","Paulino Pastor Bonilla","lázaro.olivé@example.com","Madrid","2024-01-20",True,"2024-01-20",False
+"USR-0055","Diana Bauzà","leonel.céspedes@example.com","Barcelona","2024-11-10",True,"2024-11-10",False
+"USR-0056","Amaro Bernat Gisbert","agapito.alfaro@example.com","Barcelona","2025-08-03",False,NULL,False
+"USR-0057","Emiliana Rojas Nevado","alberto.novoa@example.com","Valencia","2025-05-12",False,NULL,False
+"USR-0058","Narcisa Narváez-Giménez","manu.falcón@example.com","Madrid","2024-05-08",True,"2024-05-08",False
+"USR-0059","Nazaret Galan Llobet","olegario.ayala@example.com","Valencia","2025-07-16",True,"2025-07-16",False
+"USR-0060","Arcelia Landa","cruz.lerma@example.com","Barcelona","2025-09-13",False,NULL,False
+"USR-0061","Felipa Bárcena Salcedo","blanca.juliá@example.com","Valencia","2025-07-06",False,NULL,False
+"USR-0062","Damián del Sedano","teo.villar@example.com","Madrid","2024-07-24",False,NULL,False
+"USR-0063","Antonia Luz Alemany Cantón","corona.ramón@example.com","Madrid","2025-11-18",False,NULL,False
+"USR-0064","Juliana Fábregas Goicoechea","carlito.quevedo@example.com","Barcelona","2025-06-13",False,NULL,False
+"USR-0065","Lope Soriano","calista.aliaga@example.com","Barcelona","2024-08-18",True,"2024-08-18",False
+"USR-0066","Bartolomé León Marqués Julián","palmira.artigas@example.com","Valencia","2025-08-25",False,NULL,False
+"USR-0067","Vinicio Mendez Arce","geraldo.morante@example.com","Valencia","2024-08-13",True,"2024-08-13",False
+"USR-0068","Teobaldo Reig Tomas","clementina.leiva@example.com","Barcelona","2025-10-08",True,"2025-10-03",True
+"USR-0069","Ofelia Collado Lerma","baltasar.soler@example.com","Barcelona","2024-02-02",False,NULL,False
+"USR-0070","Eva Llanos Olivares","luisina.cañas@example.com","Valencia","2025-06-10",True,"2025-06-10",False
+"USR-0071","Cesar Galán Lucas","encarnación.benitez@example.com","Barcelona","2025-05-12",True,"2025-05-12",False
+"USR-0072","Estefanía Porta Bernat","pelayo.armengol@example.com","Barcelona","2025-08-07",False,NULL,False
+"USR-0073","Fausto Galan Bou","aureliano.aparicio@example.com","Barcelona","2025-04-29",False,NULL,False
+"USR-0074","Perla Ariel Guardia Pedrero","encarna.agustín@example.com","Madrid","2024-04-06",True,"2024-04-06",False
+"USR-0075","Alma Río Manjón","alba.benavent@example.com","Madrid","2024-12-28",False,NULL,False
+"USR-0076","Elena García-Lledó","gregorio.rosselló@example.com","Valencia","2024-02-25",False,NULL,False
+"USR-0077","Gerónimo Damián Suárez Coloma","evelia.marco@example.com","Valencia","2024-04-10",True,"2024-04-10",False
+"USR-0078","Manuel Agullo Elorza","eloy.tejero@example.com","Barcelona","2024-12-13",False,NULL,False
+"USR-0079","Narcisa Sarmiento Jaume","liliana.arrieta@example.com","Valencia","2024-09-11",True,"2024-09-11",False
+"USR-0080","Nieves Arenas Somoza","isabel.oliva@example.com","Barcelona","2025-04-04",True,"2025-04-04",False
+"USR-0081","Pastora Escalona Núñez","ruy.niño@example.com","Barcelona","2024-10-12",False,NULL,False
+"USR-0082","Gaspar Casado Gonzalez","chuy.nebot@example.com","Valencia","2025-03-29",False,NULL,False
+"USR-0083","Patricia Madrid Arregui","tecla.cases@example.com","Valencia","2024-04-10",True,"2024-04-10",False
+"USR-0084","Jacinta Manzanares Gabaldón","ramón.chico@example.com","Barcelona","2024-01-16",False,NULL,False
+"USR-0085","Ricardo Valencia Cadenas","tadeo.marquez@example.com","Madrid","2024-06-19",False,NULL,False
+"USR-0086","Paz Moya Sevillano","liliana.fábregas@example.com","Barcelona","2024-08-06",False,NULL,False
+"USR-0087","Buenaventura Cardona Pizarro","loida.mata@example.com","Madrid","2024-06-17",False,NULL,False
+"USR-0088","Candelas Felicidad Aznar Bermudez","xavier.guijarro@example.com","Madrid","2024-09-28",False,NULL,False
+"USR-0089","Clímaco Villegas Teruel","maite.polo@example.com","Valencia","2024-10-19",False,NULL,False
+"USR-0090","Mariano del Sacristán","maría luisa.botella@example.com","Madrid","2025-07-23",False,NULL,False
+"USR-0091","Catalina Porta","dimas.mur@example.com","Barcelona","2024-06-07",True,"2024-06-07",False
+"USR-0092","Violeta Torrens Castellanos","maría.reig@example.com","Valencia","2024-02-29",False,NULL,False
+"USR-0093","Sergio Contreras Calzada","estrella.toledo@example.com","Barcelona","2024-03-03",False,NULL,False
+"USR-0094","Constanza Alvarado Vaquero","armida.diéguez@example.com","Valencia","2024-02-21",False,NULL,False
+"USR-0095","Rita de Soriano","macarena.coello@example.com","Valencia","2025-06-27",True,"2025-06-27",False
+"USR-0096","Olga Céspedes Boada","ágata.pereira@example.com","Barcelona","2024-03-23",False,NULL,False
+"USR-0097","Leocadia Perez","isabela.ruano@example.com","Barcelona","2025-09-01",True,"2025-09-01",False
+"USR-0098","Rafa Folch Acosta","iker.pulido@example.com","Valencia","2025-02-17",True,"2025-02-17",False
+"USR-0099","Francisco Jose Barrena Trujillo","perlita.calvet@example.com","Barcelona","2024-09-09",False,NULL,False
+"USR-0100","Cruz Zamorano Alonso","berto.morales@example.com","Valencia","2025-09-26",True,"2025-09-26",False
