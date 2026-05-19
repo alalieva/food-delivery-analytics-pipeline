@@ -132,17 +132,17 @@ The model calculates key restaurant performance metrics:
 - average delivery time
 - late delivery count
 
-`total_food_sales` represents the total value of food sold by the restaurant.
+`total_food_sales` represents the total value of food sold by the restaurant
 
-`gross_order_value` represents the full customer-paid order value, including food amount and delivery fee.
+`gross_order_value` represents the full customer-paid order value, including food amount and delivery fee
 
-`total_commission_revenue` represents the platform revenue earned from restaurant commissions.
+`total_commission_revenue` represents the platform revenue earned from restaurant commissions
 
-`total_payout_amount` represents the amount paid out to restaurants after platform commission.
+`total_payout_amount` represents the amount paid out to restaurants after platform commission
 
-`avg_food_basket_value` shows the average food value per order, excluding delivery fees.
+`avg_food_basket_value` shows the average food value per order, excluding delivery fees
 
-`avg_order_value` shows the average total customer check, including delivery fees.
+`avg_order_value` shows the average total customer check, including delivery fees
 
 This mart is designed to support:
 
