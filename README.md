@@ -111,15 +111,13 @@ Key findings included:
 - 218 delivery records had mismatches between timestamps and stored delivery duration
 - 159 delivery records contained unusually short or long delivery durations
 
-
-The complete set of SQL validation scripts is available here:
-
-📂 [SQL Quality Checks](sql/01_quality_checks/)
-
 A summary of detected issues and findings is available here:
 
 📄 [Data Quality Summary](docs/01_data_quality_summary.md)
 
+The complete set of SQL validation scripts is available here:
+
+📂 [SQL Quality Checks](sql/01_quality_checks/)
 
 ---
 
@@ -146,14 +144,14 @@ Staging tables:
 | `stg_payments`    | `raw.payments` |
 | `stg_deliveries`  | `raw.deliveries` |
 
+Description of staging transformations and standardization logics available here:
+
+📄  [Documentation Staging_Layer](docs/02_staging_layer.md)
+
+
 The complete set of SQL scripts is available here:
 
 📂 [SQL Staging](sql/02_staging/)
-
-
-Description of staging transformations and standardization logics available here:
-
-📄  [Documentation Staging_Layer.md](docs/02_staging_layer.md)
 
 
 Staging tables samples are available here:
@@ -169,23 +167,24 @@ The mart layer transforms cleaned staging data into business-ready analytical da
 
 Created marts:
 
-| Mart | Purpose |
+| Mart | Purpose | 
 |---|---|
-| `mart_orders` | Order-level analytical dataset |
+| `mart_orders` | Order-level analytical dataset | 
 | `mart_users` | User KPIs and behavioral metrics |
 | `mart_restaurants` | Restaurant performance analysis|
 | `mart_daily_metrics` | Daily business KPIs for time-series analysis |
 
 Mart Layer Documentation is here:
 
-📄 [Documentation Marts.md](docs/03_marts.md)
+📄 [Documentation Marts](docs/03_marts.md)
+
 
 The complete set of SQL scripts is available here:
 
 📂 [SQL Marts](sql/03_marts/)
 
 
-### Example Business Metrics
+**Example Business Metrics**
 
 The marts include metrics such as:
 
@@ -202,7 +201,7 @@ The marts include metrics such as:
 - subscriber vs non-subscriber behavior
 - restaurant performance by city and cuisine
 
-### Data Sources Used
+**Data Sources Used**
 
 The mart layer combines data from:
 
@@ -212,7 +211,7 @@ The mart layer combines data from:
 - `stg_deliveries`
 - `stg_restaurants`
 
-### Validation
+**Validation**
 
 Final marts were additionally validated to ensure:
 
@@ -223,8 +222,20 @@ Final marts were additionally validated to ensure:
 
 Detailed validation results are available here:
 
-📄 [04_marts_validation_checks.md](docs/04_marts_validation_checks.md)
+📄 [Marts Validation Checks](docs/04_marts_validation_checks.md)
 
+---
+
+## Final Analytical Marts
+
+The pipeline produces several business-ready analytical datasets optimized for reporting and dashboarding.
+
+| Mart Table | Link| Grain | Purpose |
+|---|---|---|---|
+| `mart_orders` | [mart_orders.csv](data/03_marts/mart_orders.csv) | One row per order | Core analytical fact table combining order, payment, and delivery data |
+| `mart_user_metrics` | [mart_users.csv](data/03_marts/mart_users.csv) | One row per user | User behavior and spending KPIs |
+| `mart_restaurants` | [mart_restaurants.csv](data/03_marts/mart_restaurants.csv) | One row per restaurant | Restaurant sales and commission analysis |
+| `mart_daily_metrics` | [mart_daily_metrics.csv](data/03_marts/mart_daily_metrics.csv) | One row per day | Daily business KPIs for time-series analysis |
 
 ---
 
@@ -249,6 +260,20 @@ Detailed validation results are available here:
 
 ---
 
+## Documentation
+
+Detailed documentation for each pipeline stage is available below:
+
+| Document | Description |
+|---|---|
+| [01_data_quality_summary.md](docs/01_data_quality_summary.md) | Summary of detected data quality issues and validation results |
+| [02_staging_layer.md](docs/02_staging_layer.md) | Description of staging transformations and standardization logic |
+| [03_marts.md](docs/03_marts.md) | Mart layer design, KPI logic, and aggregation strategy |
+| [04_marts_validation_checks.md](docs/04_marts_validation_checks.md) | Validation checks applied to final mart datasets |
+| [schema_notes.md](docs/schema_notes.md) | Table schemas and column descriptions |
+
+---
+
 ## Tools Used
 - PostgreSQL
 - SQL
@@ -257,18 +282,19 @@ Detailed validation results are available here:
 - Git / GitHub
 - Tableau
 
+---
+
 ## Project Outcome
 
-This project shows how raw operational data can be transformed into clean analytical datasets through a structured data pipeline.
+The project simulates a real-world analytics engineering workflow used in modern data teams.
 
-It demonstrates my practical skills in:
+It demonstrates my ability to:
 
-- data quality checks
-- SQL transformations
-- staging layer design
-- analytical mart creation
-- business logic validation
-- KPI preparation
+- work with raw operational datasets
+- identify and validate data quality issues
+- design structured staging layers
+- build business-ready analytical marts
+- implement business logic in SQL
+- prepare scalable datasets for BI reporting
 
-
-The final marts are ready for business analysis.
+The resulting mart layer provides a clean analytical foundation for operational reporting, customer analytics, restaurant performance monitoring, and financial KPI tracking.
