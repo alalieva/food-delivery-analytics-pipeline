@@ -261,14 +261,14 @@ The pipeline produces several business-ready analytical datasets optimized for r
 ## SQL Scripts
 
 ### Quality Checks
-📂 [quality_checks/](sql/quality_checks/)
+📂 [quality_checks/](sql/01_quality_checks/)
 
 ### Staging Layer
-- [01_stg_users.sql](sql/staging/01_stg_users.sql)
-- [02_stg_orders.sql](sql/staging/02_stg_orders.sql)
-- [03_stg_payments.sql](sql/staging/03_stg_payments.sql)
-- [04_stg_deliveries.sql](sql/staging/04_stg_deliveries.sql)
-- [05_stg_restaurants.sql](sql/staging/05_stg_restaurants.sql)  
+- [01_stg_users.sql](sql/02_staging/01_stg_users.sql)
+- [02_stg_orders.sql](sql/02_staging/02_stg_orders.sql)
+- [03_stg_payments.sql](sql/02_staging/03_stg_payments.sql)
+- [04_stg_deliveries.sql](sql/02_staging/04_stg_deliveries.sql)
+- [05_stg_restaurants.sql](sql/02_staging/05_stg_restaurants.sql)  
   
 ### Analytical Marts
 - [01_mart_orders.sql](sql/03_marts/01_mart_orders.sql)
