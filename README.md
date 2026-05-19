@@ -178,10 +178,13 @@ Mart Layer Documentation is here:
 
 📄 [Documentation Marts](docs/03_marts.md)
 
-
 The complete set of SQL scripts is available here:
 
 📂 [SQL Marts](sql/03_marts/)
+
+Final Mart tables are available here:
+
+📊  [View  Mart Table](data/03_marts/)
 
 
 **Example Business Metrics**
