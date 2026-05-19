@@ -10,7 +10,7 @@
   - [2. Data Quality Checks](#2-data-quality-checks)
   - [3. Staging Layer](#3-staging-layer)
   - [4. Analytical Marts](#4-analytical-marts)
-- [Final Mart Tables](#-final-mart-tables)
+- [Final Mart Tables](#final-mart-tables)
 - [SQL Scripts](#sql-scripts)
 - [Documentation](#documentation)
 - [Tools Used](#tools-used)
