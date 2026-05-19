@@ -1,5 +1,21 @@
 # 🛵 Food-Delivery-Analytics-Pipeline
 
+## Table of Contents
+- [Project Overview](#project-overview)
+  - [Repository structure](#repository-structure)
+- [Business Context](#business-context)
+- [Data Sources](#data-sources)
+- [Project Workflow](#project-workflow)
+  - [1. Raw Data Generation](#1-raw-data-generation)
+  - [2. Data Quality Checks](#2-data-quality-checks)
+  - [3. Staging Layer](#3-staging-layer)
+  - [4. Analytical Marts](#4-analytical-marts)
+- [Final Mart Tables](#-final-mart-tables)
+- [SQL Scripts](#sql-scripts)
+- [Documentation](#documentation)
+- [Tools Used](#tools-used)
+- [Project Outcome](#project-outcome)
+
 ## Project Overview
 
 This project demonstrates a full data analytics pipeline for a synthetic food delivery business.
@@ -10,7 +26,7 @@ The pipeline covers the full workflow:
 
 **Raw CSV data → PostgreSQL → Data Quality Checks → Staging Layer → Analytical Marts → ready datasets**
 
-_Repository structure_
+### _Repository structure_
 ```text
 food-delivery-analytics-pipeline/
 │
@@ -229,7 +245,7 @@ Detailed validation results are available here:
 
 ---
 
-## Final Analytical Marts
+## Final Mart Tables
 
 The pipeline produces several business-ready analytical datasets optimized for reporting and dashboarding.
 
