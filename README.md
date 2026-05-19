@@ -85,6 +85,10 @@ The dataset includes intentional data quality issues, such as:
 - cancelled and refunded orders
 - realistic business rules for delivery fees and commission rates
 
+Raw data samples are available here:
+
+📂  [Raw CSV Data](data/01_raw/)
+
 ---
 
 ### 2. Data Quality Checks
@@ -110,11 +114,11 @@ Key findings included:
 
 The complete set of SQL validation scripts is available here:
 
-📂 [01_quality_checks/](sql/quality_checks/)
+📂 [SQL Quality Checks](sql/01_quality_checks/)
 
 A summary of detected issues and findings is available here:
 
-📄 [01_data_quality_summary.md](docs/01_data_quality_summary.md)
+📄 [Data Quality Summary](docs/01_data_quality_summary.md)
 
 
 ---
@@ -134,32 +138,34 @@ Main transformations:
 
 Staging tables:
 
-| Staging Table | Source |
-|---|---|
-| `stg_users` | `raw.users` |
+| Staging Table    | Source |
+|------|---|
+| `stg_users`       | `raw.users` |
 | `stg_restaurants` | `raw.restaurants` |
-| `stg_orders` | `raw.orders` |
-| `stg_payments` | `raw.payments` |
-| `stg_deliveries` | `raw.deliveries` |
+| `stg_orders`      | `raw.orders` |
+| `stg_payments`    | `raw.payments` |
+| `stg_deliveries`  | `raw.deliveries` |
 
 The complete set of SQL scripts is available here:
-- [01_stg_users.sql](sql/staging/01_stg_users.sql)
-- [02_stg_orders.sql](sql/staging/02_stg_orders.sql)
-- [03_stg_payments.sql](sql/staging/03_stg_payments.sql)
-- [04_stg_deliveries.sql](sql/staging/04_stg_deliveries.sql)
-- [05_stg_restaurants.sql](sql/staging/05_stg_restaurants.sql)
+
+📂 [SQL Staging](sql/02_staging/)
 
 
-A summary of detected issues and findings is available here:
+Description of staging transformations and standardization logics available here:
 
-📄  [02_staging_layer.md](docs/02_staging_layer.md)
+📄  [Documentation Staging_Layer.md](docs/02_staging_layer.md)
+
+
+Staging tables samples are available here:
+
+📊  [View Sample Staging Table](data/02_staging/)
 
 
 ---
 
 ### 4. Analytical Marts
 
-The mart layer contains business-ready datasets for reporting and dashboarding.
+The mart layer transforms cleaned staging data into business-ready analytical datasets for reporting and dashboarding.
 
 Created marts:
 
@@ -170,33 +176,76 @@ Created marts:
 | `mart_restaurants` | Restaurant performance analysis|
 | `mart_daily_metrics` | Daily business KPIs for time-series analysis |
 
+Mart Layer Documentation is here:
+
+📄 [Documentation Marts.md](docs/03_marts.md)
+
 The complete set of SQL scripts is available here:
-- [01_mart_orders.sql](sql/03_marts/01_mart_orders.sql)
-- [02_mart_user_metrics.sql](sql/03_marts/02_mart_user_metrics.sql)
-- [03_mart_restaurant_metrics.sql](sql/03_marts/03_mart_restaurant_metrics.sql)
-- [04_mart_daily_metrics.sql](sql/03_marts/04_mart_daily_metrics.sql)
-- [marts_validation.sql](sql/03_marts/marts_validation.sql)
----
 
-## Key Metrics
+📂 [SQL Marts](sql/03_marts/)
 
-The final marts allow analysis of:
+
+### Example Business Metrics
+
+The marts include metrics such as:
 
 - total orders
 - delivered orders
 - cancelled orders
 - refunded orders
 - gross order value
-- food sales
-- delivery fees
+- food sales 
+- delivery fee revenue
 - restaurant commission revenue
 - average order value
-- average delivery time
-- refund rate
-- cancellation rate
+- average delivery duration
 - subscriber vs non-subscriber behavior
-- restaurant performance by tier and cuisine
-- city-level performance
+- restaurant performance by city and cuisine
+
+### Data Sources Used
+
+The mart layer combines data from:
+
+- `stg_users`
+- `stg_orders`
+- `stg_payments`
+- `stg_deliveries`
+- `stg_restaurants`
+
+### Validation
+
+Final marts were additionally validated to ensure:
+
+- aggregation consistency
+- correct KPI calculations
+- valid business logic
+- accurate joins between entities
+
+Detailed validation results are available here:
+
+📄 [04_marts_validation_checks.md](docs/04_marts_validation_checks.md)
+
+
+---
+
+## SQL Scripts
+
+### Quality Checks
+📂 [quality_checks/](sql/quality_checks/)
+
+### Staging Layer
+- [01_stg_users.sql](sql/staging/01_stg_users.sql)
+- [02_stg_orders.sql](sql/staging/02_stg_orders.sql)
+- [03_stg_payments.sql](sql/staging/03_stg_payments.sql)
+- [04_stg_deliveries.sql](sql/staging/04_stg_deliveries.sql)
+- [05_stg_restaurants.sql](sql/staging/05_stg_restaurants.sql)  
+  
+### Analytical Marts
+- [01_mart_orders.sql](sql/03_marts/01_mart_orders.sql)
+- [02_mart_user_metrics.sql](sql/03_marts/02_mart_user_metrics.sql)
+- [03_mart_restaurant_metrics.sql](sql/03_marts/03_mart_restaurant_metrics.sql)
+- [04_mart_daily_metrics.sql](sql/03_marts/04_mart_daily_metrics.sql)
+- [marts_validation.sql](sql/03_marts/marts_validation.sql)
 
 ---
 
