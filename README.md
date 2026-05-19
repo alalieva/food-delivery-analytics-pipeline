@@ -120,12 +120,12 @@ Validation included:
 - business rule verification
 - payment reconciliation checks
 
-Key findings included:
+⚠️ Key findings included:
 
-- 14 users had subscription dates earlier than their signup dates
-- 73 delivery records had invalid timestamp sequences
-- 218 delivery records had mismatches between timestamps and stored delivery duration
-- 159 delivery records contained unusually short or long delivery durations
+🔸 14 users had subscription dates earlier than their signup dates  
+🔸 73 delivery records had invalid timestamp sequences  
+🔸 218 delivery records had mismatches between timestamps and stored delivery duration  
+🔸 159 delivery records contained unusually short or long delivery durations  
 
 A summary of detected issues and findings is available here:
 
@@ -203,24 +203,24 @@ Final Mart tables are available here:
 📊  [View  Mart Table](data/03_marts/)
 
 
-**Example Business Metrics**
+#### Example Business Metrics 
 
 The marts include metrics such as:
 
-- total orders
-- delivered orders
-- cancelled orders
-- refunded orders
-- gross order value
-- food sales 
-- delivery fee revenue
-- restaurant commission revenue
-- average order value
-- average delivery duration
-- subscriber vs non-subscriber behavior
-- restaurant performance by city and cuisine
+🔹 total orders  
+🔹 delivered orders  
+🔹 cancelled orders  
+🔹 refunded orders  
+🔹 gross order value  
+🔹 food sales   
+🔹 delivery fee revenue  
+🔹 restaurant commission revenue  
+🔹 average order value  
+🔹 average delivery duration  
+🔹 subscriber vs non-subscriber behavior  
+🔹 restaurant performance by city and cuisine  
 
-**Data Sources Used**
+#### Data Sources Used
 
 The mart layer combines data from:
 
@@ -230,7 +230,7 @@ The mart layer combines data from:
 - `stg_deliveries`
 - `stg_restaurants`
 
-**Validation**
+#### Validation
 
 Final marts were additionally validated to ensure:
 
@@ -293,7 +293,7 @@ Detailed documentation for each pipeline stage is available below:
 
 ---
 
-## Tools Used
+## Tools Used 
 - PostgreSQL
 - SQL
 - pgAdmin
@@ -303,7 +303,7 @@ Detailed documentation for each pipeline stage is available below:
 
 ---
 
-## Project Outcome
+## Project Outcome  
 
 The project simulates a real-world analytics engineering workflow used in modern data teams.
 
