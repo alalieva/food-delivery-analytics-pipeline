@@ -18,7 +18,8 @@
 
 ## Project Overview
 
-This project demonstrates a full data analytics pipeline for a synthetic food delivery business.
+This project demonstrates a full data analytics pipeline for a synthetic food delivery business.  
+The project follows a modern ELT (Extract, Load, Transform) approach where raw operational data is first loaded into PostgreSQL and then transformed into staging and mart layers using SQL.
 
 The goal of the project is to transform raw operational CSV data into clean analytical marts that can be used for business reporting, dashboarding, and performance analysis.
 
